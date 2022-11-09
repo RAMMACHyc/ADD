@@ -7,12 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="all.min.css">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <div class="add">
         <div class="l-form">
             <form action="" class="form">
@@ -21,26 +19,45 @@
                     <input type="text" class="form_input" placeholder="">
                     <label for="" class="form_label">Name</label>
                 </div>
+
+                <div class="form_select">
+                    <select name="cars" id="cars">
+                        <option value="volvo">Collection</option>
+                        <option value="saab">sport</option>
+                        <option value="opel">Utility</option>
+                        <option value="audi">photography</option>
+                      </select>
+                </div>
+
                 <div class="form_div">
                     <input type="text" class="form_input" placeholder="">
-                    <label for="" class="form_label">Artiste</label>
+                    <label for="" class="form_label">Price </label>
                 </div>
-                <div>
+                <div class="form_description">
+                    <textarea id="description" class="form_input" placeholder="" rows="4" cols="50"></textarea>
+                    <label for="" class="form_label">Description </label>
+                    <div class="col-75">
+                    </div>
+                </div>
+                <div class="button">
 
                     <input type="submit" class="form_button" value="choisir un fichier"><br>
+
+                </div>
+                <div>
                     <input type="submit" class="form_button_add" value="add">
                 </div>
+
             </form>
         </div>
         <div class="page">
             <div class="card">
-                <img class="img" src="https://opensea.io/static/images/learn-center//what-is-nft.png" alt="" />
+                <img class="img" src="https://opensea.io/static/images/learn-center//what-are-gas-fees.png" alt="" />
                 <h2>NFT Title</h2>
                 <p>Lorem ipsum dolor sit amet.</p>
 
             </div>
         </div>
-
     </div>
 </body>
 
