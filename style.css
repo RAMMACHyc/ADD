@@ -112,7 +112,7 @@
         z-index: 10;
     }
     
-    .form_input:not(:placeholder-shown).form_input:not(:focus)+.form_label {
+    .form_input:not(:placeholder-shown).form__input:not(:focus)+.form_label {
         top: -.5rem;
         left: .8rem;
         color: var(--first-color);
