@@ -42,7 +42,7 @@
     }
     
     .form {
-        width: 420px;
+        width: 84%;
         padding: 2rem 2rem;
         border-radius: 1rem;
         box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
@@ -159,7 +159,7 @@
     .card {
         width: 500px;
         padding: 20px;
-        position: absolute;
+        /* position: relative; */
         left: 70%;
         top: 50%;
         transform: translate(-50%, -50%);
@@ -215,4 +215,62 @@
         height: 48px;
         margin-bottom: 1.5rem;
         height: 150px;
+    }
+    .l-  form{
+        display: flex;
+    }
+ 
+
+
+    @media screen and (max-width:767px) {
+       .row{
+         display: grid;
+    align-content: stretch;
+    align-items: start;
+    justify-items: center;
+        }
+        .card {
+            width: 500px;
+            padding: 20px;
+            position: relative;
+            left: 50%;
+            top: 64%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background-color: #400874;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(105, 5, 112) inset;
+        }
+        
+    }
+    @media screen and (min-width:768px) and (max-width:1023px){
+
+       
+
+    }
+    @media screen and (min-width:1024px){
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+        .card {
+            width: 500px;
+            padding: 20px;
+            position: absolute;
+            left: 70%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background-color: #400874;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(105, 5, 112) inset;
+        }
+        .form {
+            width: 100%;
+            padding: 2rem 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+            background-color: #fff;
+        }
+
     }
